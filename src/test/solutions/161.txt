@@ -1,1 +1,0 @@
-Var,a,,,b,:,integer,;,sdsd,:,real,;,function,test,(,),:,integer,;,var,x,,,y,:,real,;,begin,end,<EOF>

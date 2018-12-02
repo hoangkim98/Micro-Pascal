@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            x := (9 > 5);
-        end
-        

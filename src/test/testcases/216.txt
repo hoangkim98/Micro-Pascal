@@ -1,7 +1,0 @@
-
-        procedure foo(a,b:integer);
-        var x:real;
-        begin
-          a[#12] := 02;
-        end
-        

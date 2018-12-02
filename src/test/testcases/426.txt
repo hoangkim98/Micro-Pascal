@@ -1,8 +1,0 @@
-var a:array[1 .. 7] of real;b:real;
-        procedure main();
-        begin
-            if b[1] + 1 then foo(); 
-        end
-        procedure foo();
-        begin end
-        

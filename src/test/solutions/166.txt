@@ -1,1 +1,0 @@
-procedure,foo,(,a,,,b,:,integer,),;,var,x,:,real,;,begin,for,a,:=,1,to,n,do,begin,if,x,>=,4,or,x,<,4,then,begin,foo,(,3,),;,a,:=,1,;,end,else,begin,foo,(,1.,),;,1,l,.2,e,-,Error Token !

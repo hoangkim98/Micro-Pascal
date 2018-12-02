@@ -1,1 +1,0 @@
-procedure foo(); begin begin a:= 1 and then 2 or else 3 and then 4; end  end

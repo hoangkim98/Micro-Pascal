@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            while x/2 + 1 do foo();
-        end
-        

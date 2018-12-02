@@ -1,1 +1,0 @@
-procedure foo(a:integer); begin print(); end

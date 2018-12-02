@@ -1,8 +1,0 @@
-var a:real;
-        procedure main();
-        begin
-            return a; 
-        end
-        procedure foo();
-        begin end
-        

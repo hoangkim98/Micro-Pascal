@@ -1,7 +1,0 @@
-
-        function foo(): integer;
-        begin
-            while -1 do foo();
-            y := -x;
-        end
-        

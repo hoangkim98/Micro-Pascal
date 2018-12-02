@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            if (x >= arr[2]) then foo();
-        end
-        

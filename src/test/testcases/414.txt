@@ -1,6 +1,0 @@
-
-        procedure main();
-        begin
-            a :=1;
-        end
-        

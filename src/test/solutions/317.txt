@@ -1,1 +1,0 @@
-Program([FuncDecl(Id(foo),[],VoidType(),[],[Return(Some(CallExpr(Id(foo),[BinaryOp(+,IntLiteral(1),IntLiteral(1)),IntLiteral(2)])))])])

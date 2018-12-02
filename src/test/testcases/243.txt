@@ -1,8 +1,0 @@
-
-        procedure main() ;
-        beGin
-            a[b[2]] := 10;
-            foo();
-            return ;
-        eND
-        

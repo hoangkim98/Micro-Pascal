@@ -1,1 +1,0 @@
-procedure foo(); begin with a:integer;c:array[1 .. 2] of string; do begin print(); end return a; end

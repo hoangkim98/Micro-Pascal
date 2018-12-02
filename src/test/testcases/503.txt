@@ -1,2 +1,0 @@
-procedure main();
-            begin putFloat(8.5 / 5); end

@@ -1,1 +1,0 @@
-procedure foo(); begin return foo(1+1,2); end

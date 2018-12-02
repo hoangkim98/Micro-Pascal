@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            if range(10,0,-2) + 1 then foo();
-        end
-        

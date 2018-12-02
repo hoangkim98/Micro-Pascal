@@ -1,5 +1,0 @@
-proceDure main () ;
-        var x,y: array [1 .. 5] of integer;
-        BEGIN
-            putIntLn(4);
-        end

@@ -1,5 +1,0 @@
-
-        procedurE foo () ;
-            begin
-            End           
-        

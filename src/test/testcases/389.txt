@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            while y1 OR z2 do foo();
-        end
-        

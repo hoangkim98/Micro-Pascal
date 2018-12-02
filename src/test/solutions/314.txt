@@ -1,1 +1,0 @@
-Program([FuncDecl(Id(foo),[],VoidType(),[],[AssignStmt(ArrayCell(Id(a),IntLiteral(1)),IntLiteral(1)),AssignStmt(Id(b),ArrayCell(Id(a),IntLiteral(1))),AssignStmt(Id(a),Id(b)),Return(Some(Id(a)))])])

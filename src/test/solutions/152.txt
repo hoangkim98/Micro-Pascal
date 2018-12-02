@@ -1,1 +1,0 @@
-long,long,x,,,y,,,q,,,n,;,int,main,(,),else,cout,<,<,t,<,<,endl,;,Error Token }

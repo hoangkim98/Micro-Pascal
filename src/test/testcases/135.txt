@@ -1,7 +1,0 @@
-
-        procedure foo(a,b:integer);
-        var x:real; s:string;
-        begin
-          s:="abc;
-        end
-        

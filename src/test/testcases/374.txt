@@ -1,7 +1,0 @@
-
-        function foo(): integer;
-        var a: array [1 .. 10] of integer;
-        begin
-            while a[1] and then a[2] do print();
-        end
-        

@@ -1,1 +1,0 @@
-Program([FuncDecl(Id(foo),[],IntType,[],[AssignStmt(Id(x),BinaryOp(or,BinaryOp(or,BinaryOp(and,BooleanLiteral(True),BooleanLiteral(False)),BooleanLiteral(False)),BooleanLiteral(True)))])])

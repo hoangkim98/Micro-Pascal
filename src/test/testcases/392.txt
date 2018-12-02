@@ -1,7 +1,0 @@
-
-        function foo(): integer;
-        begin
-            while 4 div 3 do foo();
-            y := 4 mOd 3;
-        end
-        

@@ -1,8 +1,0 @@
-var a:array[1 .. 6] of real;
-        procedure main();
-        begin
-            if true aNd a then foo(); 
-        end
-        procedure foo();
-        begin end
-        

@@ -1,9 +1,0 @@
-var c:integer;
-            procedure main();
-            begin
-                c := 3;
-                if c<1 then putintln(c);
-                else putintln(1);
-                putintln(10);
-            end
-            

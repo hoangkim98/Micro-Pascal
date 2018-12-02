@@ -1,7 +1,0 @@
-var c:boolean;
-            procedure main();
-            begin
-                c := true or faLse;
-                putbool(c);
-            end
-            

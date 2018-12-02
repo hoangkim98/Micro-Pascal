@@ -1,9 +1,0 @@
-var a:integer;
-        function a():real;
-        begin 
-            return 1;
-        end
-        procedure main();
-        begin
-        end
-        

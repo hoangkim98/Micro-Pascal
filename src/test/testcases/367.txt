@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            if foo(123) + 1 then foo();
-        end
-        

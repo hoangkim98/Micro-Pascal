@@ -1,9 +1,0 @@
-
-        Procedure ThayTheTatCa (A:array[0 .. 10] of integer;N, x,y:Integer);
-        Var i:Integer;
-        Begin
-            For i:=0 to N do
-                If(A[i] = x) then { Tim thay x ==> thay the thanh y }
-            A[i] := y;
-        End
-        

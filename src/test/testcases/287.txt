@@ -1,5 +1,0 @@
-
-        function main (): real ;
-            begin
-            End            
-        

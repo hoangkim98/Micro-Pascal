@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            while (y <= z) do foo();
-        end
-        

@@ -1,2 +1,0 @@
-var a,b:integer; c,d:real; e:array[-1 .. 2] of boolean;
-        

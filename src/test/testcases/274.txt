@@ -1,6 +1,0 @@
-
-        function foo(c: real): sTRIng;
-        BEGIN
-            FOR i:=1 to m+10 do 
-                s := s + 1;
-        END

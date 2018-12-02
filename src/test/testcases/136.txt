@@ -1,9 +1,0 @@
-
-        procedure foo (a,b:integer;c:real);     //name of procedure
-        var x,y:real;   //this is a comment
-        begin   {another comment}
-        //comment again
-            x=6;
-            y=9*x+10000/3;
-        end //end of program
-        

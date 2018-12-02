@@ -1,9 +1,0 @@
-
-        procedure foo(a,b:integer);
-        var x:real; 
-        begin
-            while ( a+b- not c );
-            while ( b--not c) do
-            foo();
-        end
-        

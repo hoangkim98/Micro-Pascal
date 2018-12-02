@@ -1,8 +1,0 @@
-var a:integer;
-        procedure main();
-        begin
-            if a dIV 3 then foo(); 
-        end
-        procedure foo();
-        begin end
-        

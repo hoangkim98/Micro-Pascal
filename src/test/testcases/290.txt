@@ -1,5 +1,0 @@
-
-            function main () ;BEGIN
-            return 0;
-            end
-        

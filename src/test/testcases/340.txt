@@ -1,6 +1,0 @@
-
-        function foo(): integer;
-        begin
-            x := foo() + 1;
-        end
-        

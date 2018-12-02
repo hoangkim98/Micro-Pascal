@@ -1,7 +1,0 @@
-
-        proCeduRe foo() ;
-        var x,y: real ;
-        BEGIN
-            a := "conga";
-            b := func(1,a+1) ;
-        END
