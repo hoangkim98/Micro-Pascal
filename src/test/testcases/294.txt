@@ -1,0 +1,9 @@
+
+        function foo():real;
+        begin
+        if (color = red) then
+            writeln("You have chosen a red car");
+        else
+            writeln("Please choose a color for your car");
+        end
+        

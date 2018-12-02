@@ -1,0 +1,14 @@
+ 
+            var x: real;
+            procedure foo(a: real; b: integer);
+            begin
+                putFloatLn(a);
+                putIntLn(b);
+            end
+
+            procedure main();
+            var a : integer;
+            begin
+                foo(12,4);
+            end
+        

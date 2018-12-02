@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            while foo() + 1 do foo();
+        end
+        

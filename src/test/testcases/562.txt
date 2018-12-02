@@ -1,0 +1,14 @@
+
+        procedure main();
+        var X: integer;
+        begin
+            x := 12;
+            putint(X);
+            Foo();
+        end
+
+        procedure foo();
+        begin
+            putString("Hello world");
+        end
+        

@@ -1,0 +1,6 @@
+var a:boolean;
+            procedure main();
+            begin
+                a:=tRue;
+                putbool(A);
+            end

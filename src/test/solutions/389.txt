@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo),[],IntType,[],[While(BinaryOp(OR,Id(y1),Id(z2)),[CallStmt(Id(foo),[])])])])

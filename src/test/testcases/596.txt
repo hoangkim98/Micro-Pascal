@@ -1,0 +1,11 @@
+
+        function sum(a,b:integer):integer;
+        begin
+            return a + b;
+        end
+
+        procedure main();
+        begin
+            putInt(sum(1,10) - sum(10,1));
+        end
+        

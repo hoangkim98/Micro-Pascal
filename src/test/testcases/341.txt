@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            x := foo(123) + 1;
+        end
+        

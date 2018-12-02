@@ -1,0 +1,11 @@
+
+       function foo(): real;
+       begin
+            return 1;
+        end
+
+        procedure main();
+        begin
+            putFloat(foo());
+        end
+        

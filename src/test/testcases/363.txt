@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if 2.5-0.5 then foo();
+        end
+        

@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            x := true and false or false or true;
+        end
+        

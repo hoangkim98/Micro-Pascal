@@ -1,0 +1,11 @@
+//var a:real;
+            procedure main();
+            var a:integer;d:boolean;
+            begin
+                a := 0;
+                if true then a:=a+1;
+                else a:=a+2;
+                a:=a+4;
+                putintln(a);
+            end
+            

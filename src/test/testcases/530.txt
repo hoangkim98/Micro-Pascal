@@ -1,0 +1,14 @@
+var c:boolean;a:integer;
+            procedure main();
+            begin
+                a:=10;
+                if (false or else foo()) then putintln(a);
+                else putintln(5);
+                putint(a);
+            end
+            function foo():boolean;
+            begin
+                a := a-1;
+                return true;
+            end
+            

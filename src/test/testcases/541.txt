@@ -1,0 +1,16 @@
+
+        function foo(): boolean;
+        begin
+            putStringLn("hello");
+            return true;
+        end
+
+        procedure main();
+        var x : integer;
+        begin
+            x := 123;
+            if (true and false) then
+                x := x - 100;
+            putIntLn(x);
+        end
+        

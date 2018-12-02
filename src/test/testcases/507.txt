@@ -1,0 +1,10 @@
+var a:boolean;
+            procedure main();
+            begin
+                putinT(foo());
+            end
+            function foo():integer;
+            begin
+                return 5;
+            end
+            

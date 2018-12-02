@@ -1,0 +1,51 @@
+
+        int n, c[200020], a[200010], d[200010], ans = 0;
+        int main()
+        {
+                cin >> n;
+                for (int i = 0; i < n; i++)
+                        cin >> c[i];
+                for (int i = 0; i < n; i++)
+                {
+                        cin >> a[i];
+                        a[i]--;
+                        d[i] = 0;
+                }
+                for (int i = 0; i < n; i++)
+                {
+                        if (d[i])
+                                continue;
+                        int cur = i;
+                        vector<int> s;
+                        while (!d[cur])
+                        {
+                                s.push_back(cur);
+                                d[cur] = 1;
+                                cur = a[cur];
+                        }
+                        bool loop = false;
+                        for (int j = 0; j < s.size(); j++)
+                        {
+                                if (s[j] == cur)
+                                {
+                                        loop = true;
+                                        break;
+                                }
+                        }
+                        if (loop)
+                        {
+                                int t = cur, k = c[cur];
+                                cur = a[cur];
+                                while (cur != t)
+                                {
+                                        if (k > c[cur])
+                                                k = c[cur];
+                                        cur = a[cur];
+                                }
+                                ans += k;
+                        }
+                }
+                cout << ans << endl;
+                return 0;
+        }
+        

@@ -1,0 +1,7 @@
+var a:real;
+            procedure main();
+            begin
+                a:=10;
+                putfloat(a);
+            end
+            

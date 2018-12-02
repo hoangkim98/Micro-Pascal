@@ -1,0 +1,3 @@
+function foo():real;
+        var x,y:real;
+        begin continue; end

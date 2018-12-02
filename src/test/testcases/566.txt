@@ -1,0 +1,18 @@
+
+            procedure main();
+            var a,b: boolean;
+            begin
+                a := True;
+                b := False;
+                putbool(a and b and then a and not b and test());
+            end
+            function test(): boolean;
+            var a: real;
+                res: boolean;
+            begin
+                res := false;
+                a := 9.5;
+                putFloat(a);
+                return res;
+            end
+            

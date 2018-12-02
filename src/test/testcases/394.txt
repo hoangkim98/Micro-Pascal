@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            a:= 12.e3 + 12.e3 -3.E1;
+        end
+        

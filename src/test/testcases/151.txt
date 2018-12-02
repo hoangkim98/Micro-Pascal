@@ -1,0 +1,27 @@
+
+        int t, n;
+        string st;
+        int main()
+        {
+                cin >> t;
+                for (int i = 0; i < t; i++)
+                {
+                        cin >> n;
+                        cin >> st;
+                        bool kt = true;
+                        for (int i = 0; i < n / 2; i++)
+                        {
+                                int j = n - i - 1;
+                                if (!(st[i] == st[j] || st[i] - st[j] == 2 || st[j] - st[i] == 2))
+                                {
+                                        cout << "NO" << endl;
+                                        kt = false;
+                                        break;
+                                }
+                        }
+                        if (kt)
+                                cout << "YES" << endl;
+                }
+                return 0;
+        }
+        

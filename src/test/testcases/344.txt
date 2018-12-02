@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            x := y1 OR z2;
+        end
+        

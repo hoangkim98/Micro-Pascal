@@ -1,0 +1,10 @@
+var a:boolean;
+            procedure main();
+            begin
+                putfloat(foo());
+            end
+            function foo():real;
+            begin
+                return 5;
+            end
+            

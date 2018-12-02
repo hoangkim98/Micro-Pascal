@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            while 2.5-0.5 do foo();
+        end
+        

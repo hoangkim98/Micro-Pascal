@@ -1,0 +1,15 @@
+
+            var d: integer;
+            procedure main();
+            var a,b: boolean;
+                c: String;
+            begin
+                a := True;
+                b := False;
+                c := "ahihi";
+                d := 1 + 2;
+                putBool(a or b and not b or False);
+                putString(c);
+                putInt(d);
+            end
+        

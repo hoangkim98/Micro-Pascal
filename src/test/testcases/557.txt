@@ -1,0 +1,11 @@
+
+        var x: integer;
+        procedure main();
+
+        begin
+            for x := 0 to 0 do
+                continue;
+            putInt(x);
+
+        end
+        

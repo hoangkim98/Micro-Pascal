@@ -1,0 +1,23 @@
+
+function fact(x: integer): integer;
+var i, f : integer;
+begin
+    f := 1;
+    for i := 1 to x do f := f * i;
+    return f;
+end
+
+procedure main();
+var s, i : integer;
+begin
+    i := 1;
+    s := 0;
+
+    while i <= 10 do 
+    begin
+        putIntLn(fact(i));
+        i := i + 1;
+    end
+
+end
+        

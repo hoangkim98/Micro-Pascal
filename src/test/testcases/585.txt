@@ -1,0 +1,21 @@
+
+        var i,j:integer;
+        procedure main();
+        begin
+            while TRUE do
+            begin
+                putStringLn("LOOPING...");
+                break;
+            end
+            for i:= 1 to 100 do
+            begin
+                while not not not false do
+                    break;
+                for j := -9 to -1 do
+                begin
+                    putInt(-(j*i));
+                end
+                break;
+            end
+        end
+        

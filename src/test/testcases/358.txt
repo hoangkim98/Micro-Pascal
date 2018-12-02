@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if (9 < 5) then foo();
+        end
+        

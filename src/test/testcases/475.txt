@@ -1,0 +1,10 @@
+
+        procedure main();
+        begin
+        end
+        function foo(): real;
+        begin
+            break;
+            return 1;
+        end
+        

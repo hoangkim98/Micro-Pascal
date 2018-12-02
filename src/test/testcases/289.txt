@@ -1,0 +1,5 @@
+
+            proceDure main ():  real ;BEGIN
+            putIntLn(4);
+            end
+        

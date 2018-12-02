@@ -1,0 +1,42 @@
+
+        def f(i):
+                k = 0
+                while i != 1:
+                        k += 1
+                        i = int(i/2)
+                        return kdef
+                finds(l, i, n):
+                        if i == 0:
+                                if l[0] >= n:
+                                        l[0] -= n
+                                        return (l, n)
+                                return (l, -1)
+                        if l[i] < n:
+                                p = finds(l, i - 1, (n - l[i]) * 2)
+                                if p[1] == -1:
+                                        return (l, -1)
+                                l = p[0]
+                                k = l[i]
+                                l[i] = 0
+                                return (l, p[1] + k)
+                        l[i] -= n
+                        return (l, n)
+                [n, q] = map(int, input().strip().split())
+                coin = list(map(int, input().strip().split()))
+                coin_bin = [f(i) for i in coin]
+                ns = [0 for i in range(33)]for i in coin_bin:
+                        ns[i] += 1
+                        for j in range(q):
+                                qs = int(input())
+                                qs_bin = bin(qs)[2:]
+                                lqs = len(qs_bin)
+                                ks = [i for i in ns]
+                                ans = 0 
+                                for i in range(lqs):
+                                        if qs_bin[i] == '1':
+                                                np = lqs - i - 1
+                                                p = finds(ks, np, 1)
+                                                if p[1] == -1: 
+                                                        ans = -1  
+                                                        break                                                           
+        

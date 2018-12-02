@@ -1,0 +1,7 @@
+var a:real;
+            procedure main();
+            begin
+                a:=1.5;
+                //putint(9 div 6);
+                putFloat(a);
+            end

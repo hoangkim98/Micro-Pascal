@@ -1,0 +1,10 @@
+var a: real;
+        procedure main();
+        begin
+            a:= foo(c,d);
+        end
+        function foo(a,b:real):real;
+        begin
+            return 1;
+        end
+        

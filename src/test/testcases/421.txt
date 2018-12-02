@@ -1,0 +1,8 @@
+var a:real;
+        procedure main();
+        begin
+            if a and THEN 1.4 then foo(); 
+        end
+        procedure foo();
+        begin end
+        

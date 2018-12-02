@@ -1,0 +1,11 @@
+var a: integer;
+        procedure main();
+        var a:integer;
+        begin
+            a:=(1+1)[a];
+        end
+        function foo():real;
+        begin
+            return 1;
+        end
+        

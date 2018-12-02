@@ -1,0 +1,13 @@
+
+        var a,b: integer;
+        procedure foo(a:integer);
+        begin
+            if(goo(a,b) = TRUE) then
+                return;
+            else a := a - b;
+        end
+        function goo(a,b:integer): BOOLEAN;
+        begin
+            return a >  0;
+        END
+        

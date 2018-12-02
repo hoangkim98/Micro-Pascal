@@ -1,0 +1,81 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "python run.py clean"
+        },
+        {
+            "label": "Gen",
+            "dependsOn": [
+                "Clean"
+            ],
+            "type": "shell",
+            "command": "python run.py gen",
+            "problemMatcher": []
+        },
+        {
+            "label": "LexerSuite",
+            "dependsOn": [
+                "Gen"
+            ],
+            "type": "shell",
+            "command": "python run.py test LexerSuite",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "ParserSuite",
+            "dependsOn": [
+                "Gen"
+            ],
+            "type": "shell",
+            "command": "python run.py test ParserSuite",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "ASTGenSuite",
+            "type": "shell",
+            "command": "python run.py test ASTGenSuite",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "CheckerSuite",
+            "type": "shell",
+            "command": "python run.py test CheckerSuite",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "CodeGenSuite",
+            "type": "shell",
+            "command": "python3 run.py test CodeGenSuite",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

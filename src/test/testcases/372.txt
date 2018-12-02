@@ -1,0 +1,7 @@
+
+        function foo(): integer;
+        begin
+            if 4 div 3 then foo();
+            y := 4 mOd 3;
+        end
+        

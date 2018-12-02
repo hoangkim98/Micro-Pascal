@@ -1,0 +1,12 @@
+//var a:string;
+
+            procedure main();
+            begin
+                putstRing(foo());
+                //PUtString("abc");
+            end
+            function foo():string;
+            begin
+                return "abc";
+            end
+            

@@ -1,0 +1,6 @@
+
+        pROCEDURE foo(c: real) ;
+        var x:real ;
+        BEGIN
+            whILe(a<>1) do beGin end
+        END

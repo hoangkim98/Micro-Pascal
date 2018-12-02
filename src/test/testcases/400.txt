@@ -1,0 +1,6 @@
+var a:integer;
+        procedure main();
+        begin
+        end
+        var A: array[1 .. 3] of real;
+        

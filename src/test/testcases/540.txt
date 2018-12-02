@@ -1,0 +1,24 @@
+
+        function foo(): boolean;
+        begin
+            putStringLn("hello");
+            return true;
+        end
+
+        procedure main();
+        var x : integer;
+        begin
+            x := 123;
+            if (x > 100) then
+                putStringLn("100 < x < 200");
+            else if (x > 200) then
+                putStringLn("200 < x < 300");
+            else if (x > 300) then
+                putStringLn("x > 300");
+            else 
+            begin
+                if (x > 100) then
+                 x := x + 100;
+            end
+            putIntLn(x);
+        end

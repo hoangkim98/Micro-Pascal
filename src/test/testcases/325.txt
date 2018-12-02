@@ -1,0 +1,4 @@
+
+        procedure foo(a:integer);
+        var x,y:array[1 .. 2] of real;
+        begin print(a,b);return a; end

@@ -1,0 +1,24 @@
+
+            function isPrime(n:integer):boolean;
+            var flag:boolean;i:integer;
+            begin
+            	if (n=1) or (n=0) then return false;
+            	if (n=2) or (n=3) then return true;
+            	flag :=true;
+            	for i:=2 to (n div 2) do
+            		if n - ((n div i) * i) = 0 then
+            		begin
+            			flag := false;
+            			break;
+            		end
+            	return flag;
+            end
+
+            procedure main();
+            begin
+            	putBoolln(isPrime(1));
+            	putBoolln(isPrime(2));
+            	putBoolln(isPrime(7));
+            	putBool(isPrime(14));
+            end
+        

@@ -1,0 +1,9 @@
+
+            procedure main();
+            begin
+                putBoolLn(1 > 2 or else 7 = 7);
+                putBoolLn(1 < 0 or else -1 > 0);
+                putBoolLn(1 > -0 or else 2 >= 2);
+                putBool(true and (1 = 1) or else 2 < 2);
+            end
+        

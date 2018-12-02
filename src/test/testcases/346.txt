@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            y := x*x - 1;
+        end
+        

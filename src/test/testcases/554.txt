@@ -1,0 +1,13 @@
+
+		procedure main();
+		var x: integer;
+		begin
+			x := 10;
+			foo(x);
+			putFloat(x);
+		end
+
+		procedure foo(x: real);
+		begin
+			putFloat(x);
+		end        

@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            while x*x - 1 do foo();
+        end
+        

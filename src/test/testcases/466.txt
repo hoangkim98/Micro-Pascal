@@ -1,0 +1,11 @@
+var c:array[1 .. 10] of integer;
+        procedure main();
+        var d:real;
+        begin
+            d:=foo(d,c);
+        end
+        function foo(b:real;a:array[1 .. 10] of real):real;
+        begin
+            return 1;
+        end
+        

@@ -1,0 +1,8 @@
+
+        function foo(): integer;
+        var a: array [1 .. 10] of integer;
+        begin
+            a[1] := 1;
+            if 0 OR ELSE a[1] then foo();
+        end
+        

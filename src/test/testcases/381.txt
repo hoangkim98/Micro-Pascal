@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            while(x >= arr[2]) do foo();
+        end
+        

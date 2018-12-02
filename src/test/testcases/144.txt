@@ -1,0 +1,41 @@
+
+        int main()
+        {
+                int n, m, q;
+                cin >> n >> m >> q;
+                string s1, s2;
+                cin >> s1;
+                cin >> s2;
+                int arr[n][n];
+                arr[0][0] = 0;
+                int occ[n];
+                for (int i = 0; i < n - m + 1; i++)
+                {
+                        bool flag = true;
+                        for (int j = 0; j < m; j++)
+                        {
+                                if (s1[i + j] != s2[j])
+                                {
+                                        flag = false;
+                                        break;
+                                }
+                        }
+                        if (flag)
+                                occ[i] = 1;
+                        else
+                                occ[i] = 0;
+                }
+                int l, r;
+                for (int i = 0; i < q; i++)
+                {
+                        cin >> l >> r;
+                        int ans = 0;
+                        for (int j = l - 1; j < r - m + 1; j++)
+                        {
+                                ans += occ[j];
+                        }
+                        cout << ans << endl;
+                }
+                return 0;
+        }
+        

@@ -1,0 +1,1 @@
+procedure,foo,(,a,,,b,:,integer,),;,var,x,,,y,:,real,;,begin,end,procedure,main,(,),;,var,a,,,b,:,integer,;,begin,a,:=,1,;,for,i,:=,1,to,5,do,begin,pritnt,(,a,),;,foo,(,a,,,b,),;,end,end,<EOF>

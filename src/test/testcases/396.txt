@@ -1,0 +1,8 @@
+
+        procedure abc();
+        begin
+            if a=4 then
+                if a=2 then c:=7;
+                else w:=3;
+        end
+        

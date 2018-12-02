@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            x := (x >= arr[2]);
+        end
+        

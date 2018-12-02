@@ -1,0 +1,2 @@
+procedure main();
+            begin putInt(10 + 5); end

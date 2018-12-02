@@ -1,0 +1,21 @@
+
+        procedure main();
+        var i, sum: integer; 
+        begin
+
+            i := 0;
+            sum := 0;
+
+            while i < 100 do begin
+                sum := sum +i;
+                i := i + 1;
+            end
+
+            putInt(sum);
+
+            sum := sum + 100;
+
+            putInt(sum);
+
+        end
+        

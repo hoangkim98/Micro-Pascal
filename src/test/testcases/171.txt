@@ -1,0 +1,7 @@
+
+        procedure foo(a,b:integer);
+        var x:real;
+        begin
+            a[.2e+12 + 3] := 3;
+        end
+        

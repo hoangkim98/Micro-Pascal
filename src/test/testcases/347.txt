@@ -1,0 +1,7 @@
+
+        function foo(): integer;
+        begin
+            x := 4 div 3;
+            y := 4 mOd 3;
+        end
+        

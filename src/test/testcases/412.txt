@@ -1,0 +1,7 @@
+
+        var a:real;
+        procedure main();
+        begin
+            a := 1 + foo();
+        end
+        

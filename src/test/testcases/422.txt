@@ -1,0 +1,8 @@
+var a:real;
+        procedure main();
+        begin
+            if a and tRue then foo(); 
+        end
+        procedure foo();
+        begin end
+        

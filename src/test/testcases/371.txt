@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if x*x - 1 then foo();
+        end
+        

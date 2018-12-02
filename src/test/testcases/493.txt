@@ -1,0 +1,26 @@
+
+        var a: real;
+        procedure main();
+        var j:real;
+        i:integer;
+        k:boolean;
+        a:string;
+        b:array[1 .. 5] of integer;
+        d:string;
+        begin
+        if false then i:=1;
+        while false do if true then return; else bar(3);
+        while true do i:= 1;
+        with a:integer; do
+            a:= foo(a);
+        end
+        procedure bar(a:integer);
+        begin 
+        if false then return ;
+        end
+        function foo(a:integer):integer;
+        begin 
+        if false then return 4;
+        else if true then if true then return 3;
+        end
+            

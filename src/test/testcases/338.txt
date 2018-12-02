@@ -1,0 +1,7 @@
+
+        function foo(): integer;
+        begin
+            x := -1;
+            y := -x;
+        end
+        

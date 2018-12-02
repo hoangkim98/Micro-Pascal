@@ -1,0 +1,1 @@
+procedure foo(); begin begin a:=b:=a[1]:=1; end return a; end

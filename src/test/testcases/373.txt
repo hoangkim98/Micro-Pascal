@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if true and false or false or true then foo();
+        end
+        

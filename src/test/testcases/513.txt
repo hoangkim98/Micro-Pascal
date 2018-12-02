@@ -1,0 +1,11 @@
+var c:real;
+            procedure main();
+            begin
+                c:= foo(1,1.5);
+                putInt(3);
+            end
+            function foo(N:integer;z:real):real;
+            begin
+                return 1.5;
+            end
+            

@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            x := (y <= z);
+        end
+        

@@ -1,0 +1,21 @@
+
+    var x: integer;
+    
+    function foo(): boolean;
+    begin
+        putString("in foo ");
+        x := 1000;
+        return true;
+    end
+
+    procedure main();
+    begin
+        x := 10;
+
+        if (x > 100 and then foo()) then
+            putStringLn("in then");
+        else
+            putStringLn("in else");
+
+        putIntLn(x);
+    end        

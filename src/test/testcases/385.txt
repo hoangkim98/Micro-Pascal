@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            while not y and z do foo();
+        end
+        

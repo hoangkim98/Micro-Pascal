@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo),[],IntType,[],[If(BinaryOp(+,CallExpr(Id(foo),[]),IntLiteral(1)),[CallStmt(Id(foo),[])],[])])])

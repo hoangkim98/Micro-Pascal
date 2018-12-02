@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo),[],VoidType(),[],[For(Id(a)IntLiteral(1),IntLiteral(10),True,[Return(Some(Id(a)))])])])

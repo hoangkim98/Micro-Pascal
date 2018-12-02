@@ -1,0 +1,8 @@
+
+        pROCEDURE foo(c: real) ;
+        var x:real ;
+        BEGIN
+            if(a>1) then a:=1 ;
+            else if (1<2)<>(2<3) then x:=1 ;
+            else foo(a+1,2);
+        END

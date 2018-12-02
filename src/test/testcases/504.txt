@@ -1,0 +1,3 @@
+var a:real;
+            procedure main();
+            begin putFloat(10-5.5); end

@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if y1 OR z2 then foo();
+        end
+        

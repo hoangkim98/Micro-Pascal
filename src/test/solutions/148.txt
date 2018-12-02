@@ -1,0 +1,1 @@
+int,min,(,int,a,,,int,b,),int,style,(,string,s,),int,main,(,),int,br,[,10,],;,for,(,int,i,=,0,;,i,<,10,;,i,+,+,),br,[,i,],=,0,;,for,(,int,i,=,0,;,i,<,n,;,i,+,+,),int,ans,=,0,;,int,t,=,0,;,int,sum,=,0,;,for,(,int,i,=,1,;,i,<,10,;,i,+,+,),ans,=,sum,-,t,;,cout,<,<,ans,<,<,endl,;,return,0,;,Error Token }

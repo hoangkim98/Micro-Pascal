@@ -1,0 +1,9 @@
+var a:boolean;
+        procedure main();
+        var a:real;
+        begin
+            for a :=1 to 10 do foo(); 
+        end
+        procedure foo();
+        begin end
+        

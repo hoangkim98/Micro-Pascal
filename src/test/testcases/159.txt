@@ -1,0 +1,27 @@
+
+        def f(i):
+            k = 0
+            while i != 1:
+                k += 1
+                i = int(i/2)
+                return k
+            [n, q] = map(int, input().strip().split())
+            coin = list(map(int, input().strip().split()))
+            coin_bin = sorted([f(i) for i in coin])
+            ns = [0 for i in range(33)]for i in coin_bin:
+                ns[i] += 1
+                for j in range(q):
+                    qs = int(input)
+                    qs_bin = bin(qs)[2:]
+                    lqs = len(qs_bin)
+                    ks = ns
+                    ans = 0
+                    for i in range(lqs):
+                        index = lqs - i - 1
+                        if qs_bin[index] == "1":
+                                if ks[i] == 0:
+                                        print(-1)
+                                        break
+                                        ans += 1
+                                        ks[i + 1] != (ks[i] - 1) / 2    
+        

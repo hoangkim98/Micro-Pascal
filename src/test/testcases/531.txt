@@ -1,0 +1,10 @@
+
+        procedure main();
+        begin
+            while not true do
+                while not false do
+                    while true do
+                        WHILE TRUE and TRUE do
+                            putInt(-999);
+        end
+        

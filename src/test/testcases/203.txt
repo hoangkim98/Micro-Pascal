@@ -1,0 +1,12 @@
+ 
+        procedure foo (a,b: integer);
+        var x,y: real;
+        begin
+        end
+        procedure main();
+        //this is a comment
+        var a,b: integer;
+        begin
+        foo();
+        end
+        

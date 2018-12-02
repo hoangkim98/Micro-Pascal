@@ -1,0 +1,10 @@
+var a:boolean;
+            procedure main();
+            begin
+                putbool(foo());
+            end
+            function foo():boolean;
+            begin
+                return trUE;
+            end
+            

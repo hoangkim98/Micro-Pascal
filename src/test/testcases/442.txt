@@ -1,0 +1,10 @@
+var a:real;
+        procedure main();
+        begin
+            while bar() do foo(); 
+        end
+        function bar():real;
+        begin return 1; end
+        procedure foo();
+        begin end
+        

@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if (y <= z) then foo();
+        end
+        

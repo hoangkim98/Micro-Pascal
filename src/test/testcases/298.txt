@@ -1,0 +1,10 @@
+
+        procedure main();
+        begin
+            if (a <= 20) then
+            c:= c+1;
+            else 
+            else
+            begin end
+        end 
+        

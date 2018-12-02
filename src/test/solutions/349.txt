@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),IntType),VarDecl(Id(b),IntType),FuncDecl(Id(foo),[VarDecl(Id(a),IntType)],VoidType(),[],[If(BinaryOp(=,CallExpr(Id(goo),[Id(a),Id(b)]),BooleanLiteral(True)),[Return(None)],[AssignStmt(Id(a),BinaryOp(-,Id(a),Id(b)))])]),FuncDecl(Id(goo),[VarDecl(Id(a),IntType),VarDecl(Id(b),IntType)],BoolType,[],[Return(Some(BinaryOp(>,Id(a),IntLiteral(0))))])])

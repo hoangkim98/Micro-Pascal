@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo),[],IntType,[],[AssignStmt(Id(x),BinaryOp(OR,Id(y1),Id(z2)))])])

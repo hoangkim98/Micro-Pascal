@@ -1,0 +1,6 @@
+
+        function foo(): integer;
+        begin
+            if not y and z then foo();
+        end
+        
