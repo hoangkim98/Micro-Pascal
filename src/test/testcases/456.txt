@@ -1,9 +1,0 @@
-var a:array[1 .. 10] of real;
-        procedure main();
-        begin
-            foo(c,d);
-        end
-        procedure foo(a,b:real);
-        begin
-        end
-        

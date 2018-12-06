@@ -1,1 +1,0 @@
-Type Mismatch In Statement: If(ArrayCell(Id(a),IntLiteral(1)),[CallStmt(Id(foo),[])],[])

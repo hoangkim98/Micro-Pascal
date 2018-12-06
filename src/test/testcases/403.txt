@@ -1,8 +1,0 @@
-var a:integer;
-        procedure b();
-        begin end
-        var b:integer;
-        procedure main();
-        begin
-        end
-        

@@ -1,9 +1,0 @@
-
-        procedure foo();
-        begin 
-            with a,b:real;a:string; do a:= a+1;
-        end
-        procedure main();
-        begin
-        end
-        

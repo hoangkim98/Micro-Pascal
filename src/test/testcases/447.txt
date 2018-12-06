@@ -1,8 +1,0 @@
-var a:array [1 .. 9] of real;
-        procedure main();
-        begin
-            a := 1; 
-        end
-        procedure foo();
-        begin end
-        

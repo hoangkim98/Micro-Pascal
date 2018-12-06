@@ -1,1 +1,0 @@
-Type Mismatch In Statement: If(BinaryOp(dIV,Id(a),IntLiteral(3)),[CallStmt(Id(foo),[])],[])
