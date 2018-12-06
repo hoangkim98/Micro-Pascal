@@ -1,0 +1,9 @@
+var a:array[1 .. 10] of integer;
+        function main():real;
+        begin
+        end
+        function foo():real;
+        begin
+            return 1;
+        end
+        

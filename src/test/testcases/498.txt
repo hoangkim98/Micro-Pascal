@@ -1,0 +1,24 @@
+
+        var a: string;
+        var k:string;
+        var b:real;
+        procedure main();
+        var i,j:real;
+        K:boolean;
+        A:string;
+        B:array[1 .. 5] of integer;
+        d:integer;
+        begin
+            i := j := b[1];
+        end
+        function foo(a:integer):integer;
+        var B:string;
+        begin
+            if true then
+            begin
+                if false then return 0.5;
+                else return 3;
+            end
+            else return 1;
+        end
+            

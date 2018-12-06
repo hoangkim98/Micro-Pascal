@@ -1,0 +1,10 @@
+var a:array[1 .. 10] of real;
+        procedure main();
+        var b:real;
+        begin
+            foo(b);
+        end
+        procedure foo(a,b:real);
+        begin
+        end
+        

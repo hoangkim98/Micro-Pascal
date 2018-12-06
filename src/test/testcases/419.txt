@@ -1,0 +1,8 @@
+
+        procedure main();
+        begin
+            if true + false then foo(); 
+        end
+        procedure foo();
+        begin end
+        

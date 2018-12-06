@@ -1,0 +1,9 @@
+var a:array[1 .. 10] of integer;
+        procedure main();
+        begin
+        end
+        function foo():array[1 .. 10] of real;
+        begin
+            return a;
+        end
+        

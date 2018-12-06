@@ -1,0 +1,8 @@
+var a:string;
+        procedure main();
+        begin
+            a := "1";
+        end
+        procedure foo();
+        begin end
+        

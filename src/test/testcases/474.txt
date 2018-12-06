@@ -1,0 +1,8 @@
+
+        procedure main(a:real);
+        begin end
+        function foo():real;
+        begin
+            return 1;
+        end
+        

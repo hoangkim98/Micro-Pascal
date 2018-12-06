@@ -1,0 +1,8 @@
+var a: real;
+        procedure main();
+        begin
+            while a + 1 do foo(); 
+        end
+        procedure foo();
+        begin end
+        

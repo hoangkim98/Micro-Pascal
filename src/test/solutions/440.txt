@@ -1,0 +1,1 @@
+Type Mismatch In Statement: While(ArrayCell(Id(a),IntLiteral(1)),[CallStmt(Id(foo),[])])

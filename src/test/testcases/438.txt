@@ -1,0 +1,8 @@
+var a:integer;
+        procedure main();
+        begin
+            while a dIV 3 do foo(); 
+        end
+        procedure foo();
+        begin end
+        

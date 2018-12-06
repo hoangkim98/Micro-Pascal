@@ -1,0 +1,7 @@
+var putIntLn:real;
+        procedure main();
+        begin
+        end
+        procedure foo();
+        begin end
+        

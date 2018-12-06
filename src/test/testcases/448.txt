@@ -1,0 +1,8 @@
+var a:real;
+        procedure main();
+        begin
+            a:= tRuE; 
+        end
+        procedure foo();
+        begin end
+        

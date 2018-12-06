@@ -1,0 +1,34 @@
+
+        var a: real;
+        procedure main();
+        var i,j:real;
+        k:boolean;
+        a:string;
+        b:array[1 .. 5] of integer;
+        d:string;
+        begin
+        i := foo(a,b,b);
+        end
+        function foo(a:string;b,c:array[1 .. 5] of integer):integer;
+        var d:array[1 .. 5] of integer;
+        begin
+            with a:integer; do
+            begin 
+                if a < 3 then a:=4 ;
+                else begin 
+                    for a := 1 to a do break;
+                end                            
+            end
+        end
+        function bar(a:string;b,c:array[1 .. 5] of integer):integer;
+        var a:array[1 .. 5] of integer;
+        begin
+            with a:integer; do
+            begin 
+                if a < 3 then a:=4 ;
+                else begin 
+                    for a := 1 to a do break;
+                end                            
+            end
+        end
+        
